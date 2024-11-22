@@ -4,12 +4,21 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  gap: 52px;
 }
 
 img {
   width: 100px;
   height: 100px;
+}
+
+.plant-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
 }
 
 .title {
@@ -18,6 +27,7 @@ img {
   justify-content: center;
   align-items: center;
   display: flex;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
